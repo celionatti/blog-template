@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/admin-style.css">
+    <link rel="stylesheet" href="/assets/css/public.css">
+    <title>Create An Account | Registration</title>
+</head>
+<body class="bg-pattern">
+    <!-- Page Container -->
+    <div class="default-page-container">
+        <form action="create.html" method="post" class="admin-form auth-form">
+            <h1 class="center form-title">Sign Up</h1>
+        
+            <div class="input-group avatar-input-group center">
+                <input type="file" name="avatar" id="avatar-input" class="hide avatar-input">
+                <button type="button" class="change-avatar-btn">
+                    <span>Change</span>
+                </button>
+                <label for="avatar-input">Profile Image Optional</label>
+            </div>
+        
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" class="input-control">
+            </div>
+            <div class="input-group">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email" class="input-control">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="input-control">
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="conffirm-password" class="input-control">
+            </div>
+        
+            <div class="input-group">
+                <button type="submit" class="btn long-btn primary-btn big-btn">Register</button>
+            </div>
+            <p class="center">
+                <small>Already have an account? you can <a href="login.html">Login</a></small>
+            </p>
+        </form>
+    </div>
+    <!-- /Page Container -->
+</body>
+</html>
